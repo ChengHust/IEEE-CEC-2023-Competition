@@ -50,19 +50,19 @@ Note: You are encouraged to submit your paper to the given at: [CEC 2023](https:
   - You can submit your related documents and results to Dr. He (chenghe_seee@hust.edu.cn)/ Dr. Wang (hdwang@xidian.edu.cn)/ Dr. Tian (field910921@gmail.com).
 
 ## Competition Organizers:
-* Cheng He
+* ***Cheng He***
   School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan 430074, China. 
   chenghe_seee@hust.edu.cn
-* Ye Tian
+* ***Ye Tian***
   Institutes of Physical Science and Information Technology, Anhui University, Hefei 230601, China
   field910921@gmail.com
-* Handing Wang
+* ***Handing Wang***
   School of Artificial Intelligence, Xidian University, Xi'an 710071, China. 
   hdwang@xidian.edu.cn
-* Hongbin Li
+* ***Hongbin Li***
   School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan 430074, China. 
   lihongbin@hust.edu.cn
-* Yaochu Jin
+* ***Yaochu Jin***
   Faculty of Technology, Bielefeld University, D-33615 Bielefeld, Germany
   yaochu.jin@uni-bielefeld.de
 
