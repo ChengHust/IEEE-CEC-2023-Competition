@@ -14,4 +14,4 @@ In this competition, there are two tracks: large-scale continuous single- and mu
 
 %Fig. 1 The principle of the NVM problems.   |  % Details.
 :-------------------------:|:-------------------------:
-![](https://github.com/mikelzc1990/evo-pixel-attack/blob/main/assets/mnist_budget.jpg) | (a) Cross section of three-phase systems and sensors; (b) the distribution of the measured electric field (EF) and the measured and calculated EF intensities around the housing; (c) the three-phase voltages obtained by minimizing the EF intensities in (b).
+![](https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NVM.png) | (a) Cross section of three-phase systems and sensors; (b) the distribution of the measured electric field (EF) and the measured and calculated EF intensities around the housing; (c) the three-phase voltages obtained by minimizing the EF intensities in (b).
