@@ -20,5 +20,5 @@ Fig. 1 The principle of the NVM problems.   |  Details.
 
 Fig. 2 The NIM problems in practice.   |  Details.
 :-------------------------:|:-------------------------:
-![](https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NIM.png) | (a) Three-phase conductors are inclined to each other; (b) The measured magnetic field with interference noise.
+<img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NIM.png" width=100 height=60 /> | (a) Three-phase conductors are inclined to each other; (b) The measured magnetic field with interference noise.
 
