@@ -7,17 +7,31 @@ Evolutionary algorithms (EAs) have been a popular optimization tool for decades,
 IntelliSense is an emerging topic in recent years, which plays a crucial part in intelligent sensing for modern industry and society, e.g., Internet of Things (IoT), smart grids, and intelligent robots. Among various IntelliSense scenarios, the non-contact measurement in electronic engineering has shown its great potential and importance. As the most extensive man-made system in the world, the modern electric system requires the measurement of voltages and currents accurately and safely in real time. How to non-contact measure voltages and currents in a bundle of conductors enclosed in a structure has been an emerging topic in power distribution, power electronics, and power quality evaluation, to mention just a few fields of interest. The use of computational intelligence techniques, especially evolutionary computation, starts a new direction for non-contact measurement. Specifically, the black-box measurement task can be solved by EAs only, and the system can access real-time information with the assistance of effective and efficient EAs. Also, the non-contact measurement can be extended to other areas for intelligent sensing.
 In this competition, there are two tracks: large-scale continuous single- and multi-objective optimization in two non-contact measurement cases. We carefully select six LSOPs for each track from two tasks, i.e., non-contact voltage measurement for multiconductor systems (NVM) and non-contact current measurement for multiconductor systems (NIM).
 
-1+ The NVM takes advantage of the electric field around the conductors for estimating the ground truth voltage values. This NVM problem includes two types of decision variables, i.e., fixed positions of the conductors and time-varying ground truth voltage values. Generally, the variable interactions are complex in the NVM problem. First, the six position variables interact with each other. Second, the voltages in each phase interact with each other sequentially but do not interact with the voltages in other phases. Third, all the voltages are directly interacting with the positions. An illustrative example of the principle for NVM problems is given in Fig. 1.
+* The NVM takes advantage of the electric field around the conductors for estimating the ground truth voltage values. This NVM problem includes two types of decision variables, i.e., fixed positions of the conductors and time-varying ground truth voltage values. Generally, the variable interactions are complex in the NVM problem. First, the six position variables interact with each other. Second, the voltages in each phase interact with each other sequentially but do not interact with the voltages in other phases. Third, all the voltages are directly interacting with the positions. An illustrative example of the principle for NVM problems is given in Fig. 1.
 Fig. 1 The principle of the NVM problems.   |  Details.
 :-------------------------:|:-------------------------:
 <img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NVM.png" /> | (a) The cross section of three-phase systems and sensors; (b) the distribution of the measured electric field (EF) and the measured and calculated EF intensities around the housing; (c) the three-phase voltages obtained by minimizing the EF intensities in (b).
 
 
-2+ In NIM tasks, the magnetic field information around the conductors is used to estimate the ground truth current values. Different from NVM, the variables of NIM can be more complex. First, more position variables are needed for the model building to cope with conductor tilt, as shown in Fig. 2 (a). Second, the magnetic field information around the conductor may contain interference noise, aggravating the difficulty in robustly obtaining the ground truth currents, as shown in Fig. 2 (b). Third, complex numbers are involved in real-time current measurement.
+* In NIM tasks, the magnetic field information around the conductors is used to estimate the ground truth current values. Different from NVM, the variables of NIM can be more complex. First, more position variables are needed for the model building to cope with conductor tilt, as shown in Fig. 2 (a). Second, the magnetic field information around the conductor may contain interference noise, aggravating the difficulty in robustly obtaining the ground truth currents, as shown in Fig. 2 (b). Third, complex numbers are involved in real-time current measurement.
 Fig. 2 The NIM problems in practice.   |  Details.
 :-------------------------:|:-------------------------:
 <img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NIM.png" width=500 height=200 /> | (a) Three-phase conductors are inclined to each other; (b) The measured magnetic field with interference noise.
 
 ## Platform & Parameter settings
 Participants are encouraged to develop the algorithm to solve this type of optimization problem, not just a specific one of them. Participants may propose a new optimization algorithm or utilize a hybrid form of previously proposed algorithms. However, it must be restricted in the field of evolutionary computing. Participants are required to submit their own source codes, a brief description of the optimization algorithm, a brief code instruction, and the data generated by the platform. Organizers will assess the quality of your submitted data in all six problems to guarantee its fairness. With the same computational budget, the best solution for each problem obtained by randomly running your algorithm 30 times will be compared directly. 
+
+The PlatEMO v4.0 will be used as the competition platform for fair comparisons (PlatEMO v4.0), with population size (N=100), number of independent runs (run=30), and number of results (20). The code of an example settings is give as 
+```
+platemo('problem',@SONVM1,'algorithm',@GA,'N',100,'maxFE',10000000,'save',20)
+```
+* For **Single-objective Optimization Track**, the test problems are
+  SONVM1 (D=129), SONVM3 (D=1008), SONVM5 (D=1506), 
+  SONIM1 (D=1506), SONIM2(D=3006), SONIM3 (D=3006).
+  The maximum number of function evaluations (maxFE=1e8 for SONIM Problems, and maxFE=1e7 for SONVM Problems).
+* For **Multi-objective Optimization Track**, the test problems are
+  MONVM2 (D=4605), MONVM4 (D=22206), MONVM6 (D=54756),
+  MONIM1 (D=3006), MONIM2(D=3006), MONIM3 (D=3006).
+The maximum number of function evaluations (maxFE=1e9 for MONVM and MONIM Problems).
+* Participants are allowed to use the parallel execution mode for efficiency.
 
