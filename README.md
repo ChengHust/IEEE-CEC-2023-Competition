@@ -13,7 +13,7 @@ In this competition, there are two tracks: large-scale continuous single- and mu
 
 Fig. 1 The principle of the NVM problems.   |  Details.
 :-------------------------:|:-------------------------:
-<img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NVM.png" width=500 height=300 /> | (a) The cross section of three-phase systems and sensors; (b) the distribution of the measured electric field (EF) and the measured and calculated EF intensities around the housing; (c) the three-phase voltages obtained by minimizing the EF intensities in (b).
+<img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NVM.png" width=1000 height=300 /> | (a) The cross section of three-phase systems and sensors; (b) the distribution of the measured electric field (EF) and the measured and calculated EF intensities around the housing; (c) the three-phase voltages obtained by minimizing the EF intensities in (b).
 
 
 - In NIM tasks, the magnetic field information around the conductors is used to estimate the ground truth current values. Different from NVM, the variables of NIM can be more complex. First, more position variables are needed for the model building to cope with conductor tilt, as shown in Fig. 2 (a). Second, the magnetic field information around the conductor may contain interference noise, aggravating the difficulty in robustly obtaining the ground truth currents, as shown in Fig. 2 (b). Third, complex numbers are involved in real-time current measurement.
