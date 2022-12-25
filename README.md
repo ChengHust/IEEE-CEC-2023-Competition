@@ -17,7 +17,7 @@ Fig. 1 The principle of the NVM problems. (a) The cross section of three-phase s
 
 * In NIM tasks, the magnetic field information around the conductors is used to estimate the ground truth current values. Different from NVM, the variables of NIM can be more complex. First, more position variables are needed for the model building to cope with conductor tilt, as shown in Fig. 2 (a). Second, the magnetic field information around the conductor may contain interference noise, aggravating the difficulty in robustly obtaining the ground truth currents, as shown in Fig. 2 (b). Third, complex numbers are involved in real-time current measurement.
 
-<img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NIM.png" width=500 height=200 /> 
+<img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/NIM.png" /> 
 Fig. 2 The NIM problems in practice. (a) Three-phase conductors are inclined to each other; (b) The measured magnetic field with interference noise.
 
 ## Platform & Parameter settings
@@ -36,4 +36,34 @@ platemo('problem',@SONVM1,'algorithm',@GA,'N',100,'maxFE',10000000,'save',20)
   MONIM1 (D=3006), MONIM2(D=3006), MONIM3 (D=3006).
 The maximum number of function evaluations (maxFE=1e9 for MONVM and MONIM Problems).
 * Participants are allowed to use the parallel execution mode for efficiency.
+
+## Important Dates:
+For participants planning to submit a paper to the 2023 IEEE Congress on Evolutionary Computation:
+### Paper submission: 13 Jan 2023
+  - We have also hosted two special sessions on CEC 2023 ("Large-scale multi-objective optimization in emerging applications" and "EC in Healthcare Industry").
+  - Paper reviews: 3 Mar 2023 
+  - Paper re-submission: 24 Mar 2023 
+  - Paper final notifications: 31 Mar 2023 
+Note: You are encouraged to submit your paper to the given at: [CEC 2023](https://2023.ieee-cec.org/)
+**Participants for competition** only:
+  - Results submission deadline: 31 April 2023 
+  - You can submit your related documents and results to Dr. He (chenghe_seee@hust.edu.cn)/ Dr. Wang (hdwang@xidian.edu.cn)/ Dr. Tian (field910921@gmail.com).
+
+## Competition Organizers:
+* Cheng He
+  School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan 430074, China. 
+  chenghe_seee@hust.edu.cn
+* Ye Tian
+  Institutes of Physical Science and Information Technology, Anhui University, Hefei 230601, China
+  field910921@gmail.com
+* Handing Wang
+  School of Artificial Intelligence, Xidian University, Xi'an 710071, China. 
+  hdwang@xidian.edu.cn
+* Hongbin Li
+  School of Electrical and Electronic Engineering, Huazhong University of Science and Technology, Wuhan 430074, China. 
+  lihongbin@hust.edu.cn
+* Yaochu Jin
+  Faculty of Technology, Bielefeld University, D-33615 Bielefeld, Germany
+  yaochu.jin@uni-bielefeld.de
+
 
