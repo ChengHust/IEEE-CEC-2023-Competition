@@ -1,5 +1,6 @@
 # IEEE-CEC-2023-Competition
 The Platform for CEC 2023 Competition on "Large-scale Continuous Optimization for Non-contact Measurement"
+**Please use the PlatEMO v4.0 as the platform for competition**
 
 ## Overview & Aim:
 ***
