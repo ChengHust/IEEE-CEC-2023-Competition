@@ -51,7 +51,7 @@ For participants planning to submit a paper to the 2023 IEEE Congress on Evoluti
   - Paper final notifications: 31 Mar 2023 
 Note: You are encouraged to submit your paper to the given at: [CEC 2023](https://2023.ieee-cec.org/)
 **Participants for competition** only:
-  - Results submission deadline: 31 April 2023 
+  - Results submission deadline: 28 April 2023 
   - You can submit your related documents and results to Dr. He (chenghe_seee@hust.edu.cn)/ Dr. Wang (hdwang@xidian.edu.cn)/ Dr. Tian (field910921@gmail.com).
 
 ## Competition Organizers:
