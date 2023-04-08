@@ -32,13 +32,13 @@ platemo('problem',@SONVM1,'algorithm',@GA,'N',100,'maxFE',100000,'save',20)
 * For **Single-objective Optimization Track**, the test problems are
   SONVM1 (D=129), SONVM3 (D=1008), SONVM5 (D=1506), 
   SONIM1 (D=1506), SONIM2(D=3006), SONIM3 (D=3006).
-  The maximum number of function evaluations (maxFE=1e6 for SONIM Problems, and maxFE=1e5 for SONVM Problems).
+  The maximum number of function evaluations (maxFE=***1e6 for SONIM Problems, and maxFE=1e5 for SONVM Problems***).
   <img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/SOP_track.png" /> 
   
 * For **Multi-objective Optimization Track**, the test problems are
   MONVM2 (D=4605), MONVM4 (D=22206), MONVM6 (D=54756),
   MONIM1 (D=3006), MONIM2(D=3006), MONIM3 (D=3006).
-  The maximum number of function evaluations (maxFE=1e8 for MONVM and MONIM Problems).
+  The maximum number of function evaluations (***maxFE=1e8 for MONVM and MONIM Problems***).
   <img src="https://github.com/ChengHust/IEEE-CEC-2023-Competition/blob/main/MOP_track.png" /> 
 * Participants are allowed to use the parallel execution mode for efficiency.
 
