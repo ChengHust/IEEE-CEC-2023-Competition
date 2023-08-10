@@ -7,9 +7,9 @@ The Platform for CEC 2023 Competition on "Large-scale Continuous Optimization fo
 ***
   Evolutionary algorithms (EAs) have been a popular optimization tool for decades, showing their promising performance in solving various benchmark optimization problems. Nevertheless, using EAs on continuous optimization with over 100 decision variables (large-scale optimization problems, LSOPs) remains challenging due to the "curse of dimensionality". This phenomenon is more significant for those LSOPs in emerging applications, e.g., lightweight vehicle design, industrial power delivery and scheduling, smart grid optimization, and data sensitivity analysis. Specifically, LSOPs in emerging applications are challenging due to the enormous search space, irregularity in variable interactions and objective functions, and the existence of massive local optima. Conventional EAs may cost unbearable function evaluations (FEs) and computation time to obtain acceptably converged/diverse results. In extreme scenarios, most EAs fail to converge to the optima no matter how many FEs are consumed, or may fail to obtain enough diversity information for decision-making. The design of practical EAs for solving LSOPs in real-world applications is urgent and meaningful.
   
-  IntelliSense is an emerging topic in recent years, which plays a crucial part in intelligent sensing for modern industry and society, e.g., Internet of Things (IoT), smart grids, and intelligent robots. Among various IntelliSense scenarios, the non-contact measurement in electronic engineering has shown its great potential and importance. As the most extensive man-made system in the world, the modern electric system requires the measurement of voltages and currents accurately and safely in real time. How to non-contact measure voltages and currents in a bundle of conductors enclosed in a structure has been an emerging topic in power distribution, power electronics, and power quality evaluation, to mention just a few fields of interest. The use of computational intelligence techniques, especially evolutionary computation, starts a new direction for non-contact measurement. Specifically, the black-box measurement task can be solved by EAs only, and the system can access real-time information with the assistance of effective and efficient EAs. Also, the non-contact measurement can be extended to other areas for intelligent sensing.
+  IntelliSense is an emerging topic in recent years, which plays a crucial part in intelligent sensing for modern industry and society, e.g., the Internet of Things (IoT), smart grids, and intelligent robots. Among various IntelliSense scenarios, the non-contact measurement in electronic engineering has shown its great potential and importance. As the most extensive man-made system in the world, the modern electric system requires the measurement of voltages and currents accurately and safely in real-time. How to non-contact measure voltages and currents in a bundle of conductors enclosed in a structure has been an emerging topic in power distribution, power electronics, and power quality evaluation, to mention just a few fields of interest. The use of computational intelligence techniques, especially evolutionary computation, starts a new direction for non-contact measurement. Specifically, the black-box measurement task can be solved by EAs only, and the system can access real-time information with the assistance of effective and efficient EAs. Also, the non-contact measurement can be extended to other areas for intelligent sensing.
   
-  In this competition, there are two tracks: large-scale continuous single- and multi-objective optimization in two non-contact measurement cases. We carefully select six LSOPs for each track from two tasks, i.e., non-contact voltage measurement for multiconductor systems (NVM) and non-contact current measurement for multiconductor systems (NIM).
+  This competition has two tracks: large-scale continuous single- and multi-objective optimization in two non-contact measurement cases. We carefully select six LSOPs for each track from two tasks, i.e., non-contact voltage measurement for multiconductor systems (NVM) and non-contact current measurement for multiconductor systems (NIM).
 
 * The NVM takes advantage of the electric field around the conductors for estimating the ground truth voltage values. This NVM problem includes two types of decision variables, i.e., fixed positions of the conductors and time-varying ground truth voltage values. Generally, the variable interactions are complex in the NVM problem. First, the six position variables interact with each other. Second, the voltages in each phase interact with each other sequentially but do not interact with the voltages in other phases. Third, all the voltages are directly interacting with the positions. An illustrative example of the principle for NVM problems is given in Fig. 1.
 
@@ -71,4 +71,18 @@ Note: You are encouraged to submit your paper to the given at: [CEC 2023](https:
   Faculty of Technology, Bielefeld University, D-33615 Bielefeld, Germany
   yaochu.jin@uni-bielefeld.de
 
+## Competition Winners for the Single-objective Optimization Track:
+* ***Winner***
+  H2IMODE, Chaojun Ma, Yonglin He, You Wu, Lianghao Li, Huazhong University of Science and Technology
+* ***1st runner-up***
+  CC-CMAES-LAG, Yapei Wu, Tong Liu, Yanan Li, Xingguang Peng, Northwestern Polytechnical University
+* ***2nd Runner Up***
+  MIDEX, Chauanji Zhang, Cheng Cheng, Huazhong University of Science and Technology
 
+## Competition Winners for the Multi-objective Optimization Track:
+* ***Winner***
+  SLMEA, Luchen  Wang, Shuai Shao,  Chengming Wu, Shangshang Yang, Anhui University
+* ***1st runner-up***
+  LMOEA-DS, Shufen Qin, Pengpeng Zhao, Lu Wang, Xinyu Ren, Taiyuan University of Science and Technology
+* ***2nd Runner Up***
+  MOEA/D-DE-DVA, 	Yongcun Liu, Junfeng Tang, Nan Zheng, Haoran Gu, Xidian University
